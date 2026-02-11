@@ -1,7 +1,7 @@
 from handlers.intent_handler import process_message
 
 def chat_loop():
-    print("🛍️ Virtual sales assistant started! Type 'exit' to quit.")
+    print("Virtual sales assistant started! Type 'exit' to quit.")
 
     while True:
         user_input = input("Customer: ")
